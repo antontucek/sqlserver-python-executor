@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLExternalFunctions", "SQLExternalFunctions.csproj", "{C0BA083D-98B8-4414-9832-62DCD4CE6766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLExternalFunctionsUnitTest", "SQLExternalFunctionsUnitTest\SQLExternalFunctionsUnitTest.csproj", "{E19BED79-833F-4049-AD5F-BAE694A10DFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0BA083D-98B8-4414-9832-62DCD4CE6766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BA083D-98B8-4414-9832-62DCD4CE6766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BA083D-98B8-4414-9832-62DCD4CE6766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BA083D-98B8-4414-9832-62DCD4CE6766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E19BED79-833F-4049-AD5F-BAE694A10DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19BED79-833F-4049-AD5F-BAE694A10DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19BED79-833F-4049-AD5F-BAE694A10DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19BED79-833F-4049-AD5F-BAE694A10DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
