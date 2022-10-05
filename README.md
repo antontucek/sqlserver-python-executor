@@ -8,7 +8,7 @@ The solution is CLR written for Microsoft SQL Server, but the idea could be used
 # Schema
 ![This is an image](sqlserver-python-executor-schema.jpg)
 
-# Prerequisite:
+# Prerequisites
 - REST API Server:
   - Operational system: Linux (preferred), but also works on Windows or MacOS.
   - Python3 + packages in `requirements.txt`.
@@ -65,7 +65,7 @@ GRANT EXECUTE ON OBJECT::dbo.EXECUTE_PYTHON TO login1, login2;
 ```
 EXEC Core.dbo.EXECUTE_PYTHON 'testScript.py';
 ```
-## Final notes:
+## Final notes
 - Consider the following security aspects before going on production :
   - `SET TRUSTWORTHY ON` is not the best practice for SQL Server, consider better alternatives.
   - Authentication - implement your own token solution before going to production.
